@@ -1,5 +1,5 @@
 from app.main import bp
-from .. import db
+from app import db
 
 
 @bp.route("/")
